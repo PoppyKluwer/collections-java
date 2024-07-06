@@ -3,11 +3,11 @@ package list.Pesquisa;
 import java.util.ArrayList;
 import java.util.List;
 
-public class OdernacaoNumeros {
+public class SomaNumeros {
 
     List<Integer> numeros;
 
-    public OdernacaoNumeros() {
+    public SomaNumeros() {
         this.numeros = new ArrayList<>();
     }
 
@@ -48,20 +48,20 @@ public class OdernacaoNumeros {
     }
 
     public static void main(String[] args) {
-        OdernacaoNumeros odernacaoNumeros = new OdernacaoNumeros();
+        SomaNumeros somaNumeros = new SomaNumeros();
 
-        odernacaoNumeros.adicionarNumero(4);
-        odernacaoNumeros.adicionarNumero(5);
-        odernacaoNumeros.adicionarNumero(6);
-        odernacaoNumeros.adicionarNumero(7);
-        odernacaoNumeros.adicionarNumero(8);
-        odernacaoNumeros.adicionarNumero(9);
+        somaNumeros.adicionarNumero(4);
+        somaNumeros.adicionarNumero(5);
+        somaNumeros.adicionarNumero(6);
+        somaNumeros.adicionarNumero(7);
+        somaNumeros.adicionarNumero(8);
+        somaNumeros.adicionarNumero(9);
 
-        System.out.println(odernacaoNumeros.calcularSoma());
+        System.out.println(somaNumeros.calcularSoma());
 
-        System.out.println(odernacaoNumeros.encontarMaiorNumero());
-        System.out.println(odernacaoNumeros.encontarMenorNumero());
+        System.out.println(somaNumeros.encontarMaiorNumero());
+        System.out.println(somaNumeros.encontarMenorNumero());
 
-        odernacaoNumeros.exibirNumero();
+        somaNumeros.exibirNumero();
     }
 }
